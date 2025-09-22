@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "idols",
+	"version": "${version}",
+	"name": "Idols",
+	"description": "Decorative treasure blocks",
+	"authors": [
+		"Stohun"
+	],
+	"contact": {
+		"homepage": "https://github.com/stohun01",
+		"sources": "https://github.com/stohun01/Idols-Fabric-1.21.X"
+	},
+	"license": "MIT",
+	"icon": "assets/idols/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.stohun.idols.Idols"
+		],
+		"fabric-datagen": [
+			"net.stohun.idols.IdolsDataGenerator"
+		],
+		"client": [
+			"net.stohun.idols.IdolsClient"
+		]
+	},
+	"mixins": [
+		"idols.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
