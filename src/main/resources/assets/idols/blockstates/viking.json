@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "idols:block/viking",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "idols:block/viking",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "idols:block/viking"
+    },
+    "facing=west": {
+      "model": "idols:block/viking",
+      "y": 90
+    }
+  }
+}
