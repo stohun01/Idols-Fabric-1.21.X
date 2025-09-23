@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "idols:block/molten",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "idols:block/molten",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "idols:block/molten"
+    },
+    "facing=west": {
+      "model": "idols:block/molten",
+      "y": 90
+    }
+  }
+}

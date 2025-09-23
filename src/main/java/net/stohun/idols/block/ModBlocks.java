@@ -4,7 +4,6 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
@@ -12,15 +11,20 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.BlockView;
 import net.stohun.idols.Idols;
+import net.stohun.idols.block.custom.MoltenIdol;
+import net.stohun.idols.block.custom.SpartanIdol;
 import net.stohun.idols.block.custom.VikingIdol;
 
 public class ModBlocks {
 
-    public static final Block TEST = registerBlock("test",
-            new Block(AbstractBlock.Settings.create().strength(1f).sounds(BlockSoundGroup.WOOD)));
-
     public static final Block VIKING = registerBlock("viking",
             new VikingIdol(AbstractBlock.Settings.create().nonOpaque()));
+
+    public static final Block MOLTEN = registerBlock("molten",
+            new MoltenIdol(AbstractBlock.Settings.create().nonOpaque()));
+
+    public static final Block SPARTAN = registerBlock("spartan",
+            new SpartanIdol(AbstractBlock.Settings.create().nonOpaque()));
 
     private static boolean always(BlockState state, BlockView world, BlockPos pos) {
         return true;
@@ -39,8 +43,5 @@ public class ModBlocks {
     public static void registerModBlocks() {
         Idols.LOGGER.info("Registering Mod Blocks for " + Idols.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
-            entries.add(ModBlocks.TEST);
-        });
     }
 }

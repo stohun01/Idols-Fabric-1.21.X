@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "idols:block/spartan",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "idols:block/spartan",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "idols:block/spartan"
+    },
+    "facing=west": {
+      "model": "idols:block/spartan",
+      "y": 90
+    }
+  }
+}

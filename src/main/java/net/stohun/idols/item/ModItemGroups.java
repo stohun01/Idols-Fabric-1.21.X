@@ -17,8 +17,9 @@ public class ModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.VIKING))
                     .displayName(Text.translatable("itemgroup.idols.idols_blocks"))
                     .entries((displayContext, entries) -> {
-                        entries.add(ModBlocks.TEST);
                         entries.add(ModBlocks.VIKING);
+                        entries.add(ModBlocks.MOLTEN);
+                        entries.add(ModBlocks.SPARTAN);
 
                     }).build());
 

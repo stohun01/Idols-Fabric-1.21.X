@@ -4,19 +4,28 @@
 	"textures": {
 		"particle": "idols:block/viking_front",
 		"front": "idols:block/viking_front",
-		"back": "idols:block/viking_back"
+		"back": "idols:block/viking_back",
+		"horns": "idols:block/viking_horns"
 	},
 	"elements": [ 	 
 		{
 			"from": [ 4, 0, 4 ],
 			"to": [ 12, 16, 12 ],
 			"faces": {
-				"down":  { "uv": [ 8, 8, 16, 16 ], "texture": "#back", "cullface": "down" },
-				"up":    { "uv": [ 8, 0, 16, 8 ], "texture": "#back", "cullface": "up" },
+				"down": { "uv": [ 8, 8, 16, 16 ], "texture": "#back", "cullface": "down" },
+				"up": { "uv": [ 8, 0, 16, 8 ], "texture": "#back", "cullface": "up" },
 				"north": { "uv": [ 0, 0, 8, 16 ], "texture": "#front" },
 				"south": { "uv": [ 0, 0, 8, 16 ], "texture": "#back" },
-				"west":  { "uv": [ 8, 0, 16, 16 ], "texture": "#front" },
-				"east":  { "uv": [ 16, 0, 8, 16 ], "texture": "#front" }
+				"west": { "uv": [ 8, 0, 16, 16 ], "texture": "#front" },
+				"east": { "uv": [ 16, 0, 8, 16 ], "texture": "#front" }
+			}
+		},
+		{
+			"from": [ 1, 12, 7 ],
+			"to": [ 15, 17, 7.001 ],
+			"faces": {
+				"north": { "uv": [ 1, 5, 15, 10 ], "texture": "#horns" },
+				"south": { "uv": [ 1, 5, 15, 10 ], "texture": "#horns" }
 			}
 		}
 	]

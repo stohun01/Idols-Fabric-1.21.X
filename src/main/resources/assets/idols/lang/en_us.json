@@ -1,3 +1,6 @@
 {
-  "block.idols.viking": "Viking Idol"
+  "itemgroup.idols.idols_blocks": "Idols",
+  "block.idols.viking": "Viking Idol",
+  "block.idols.molten": "Molten Idol",
+  "block.idols.spartan": "Spartan Idol"
 }
