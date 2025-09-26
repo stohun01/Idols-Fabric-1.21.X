@@ -1,6 +1,5 @@
 package net.stohun.idols.block;
 
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -11,9 +10,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.BlockView;
 import net.stohun.idols.Idols;
-import net.stohun.idols.block.custom.MoltenIdol;
-import net.stohun.idols.block.custom.SpartanIdol;
-import net.stohun.idols.block.custom.VikingIdol;
+import net.stohun.idols.block.custom.*;
 
 public class ModBlocks {
 
@@ -25,6 +22,15 @@ public class ModBlocks {
 
     public static final Block SPARTAN = registerBlock("spartan",
             new SpartanIdol(AbstractBlock.Settings.create().nonOpaque()));
+
+    public static final Block SPECTRAL = registerBlock("spectral",
+            new SpectralIdol(AbstractBlock.Settings.create().nonOpaque().emissiveLighting(ModBlocks::always).luminance(value -> 1)));
+
+    public static final Block HELIOS = registerBlock("helios",
+            new HeliosIdol(AbstractBlock.Settings.create().nonOpaque()));
+
+    public static final Block DRUID = registerBlock("druid",
+            new DruidIdol(AbstractBlock.Settings.create().nonOpaque()));
 
     private static boolean always(BlockState state, BlockView world, BlockPos pos) {
         return true;

@@ -1,0 +1,43 @@
+{
+	"__comment": "Designed by Stohun with Cubik Studio - https://cubik.studio",
+	"parent": "block/block",
+	"textures": {
+		"particle": "idols:block/druid_side",
+		"front": "idols:block/druid_front",
+		"side": "idols:block/druid_side",
+		"end": "idols:block/druid_end"
+	},
+	"elements": [ 	 
+		{
+			"from": [ 4, 0, 4 ],
+			"to": [ 12, 14, 12 ],
+			"faces": {
+				"down": { "uv": [ 4, 4, 12, 12 ], "texture": "#end", "cullface": "down" },
+				"up": { "uv": [ 4, 4, 12, 12 ], "texture": "#end" }
+			}
+		},
+		{
+			"from": [ 1, 0, 4 ],
+			"to": [ 15, 15, 12 ],
+			"faces": {
+				"north": { "uv": [ 1, 1, 15, 16 ], "texture": "#front" },
+				"south": { "uv": [ 1, 1, 15, 16 ], "texture": "#side" }
+			}
+		},
+		{
+			"from": [ 4, 0, 4 ],
+			"to": [ 12, 15, 13 ],
+			"faces": {
+				"west": { "uv": [ 4, 1, 13, 16 ], "texture": "#side" },
+				"east": { "uv": [ 3, 1, 12, 16 ], "texture": "#side" }
+			}
+		},
+		{
+			"from": [ 1, 0, 4 ],
+			"to": [ 15, 15, 4.001 ],
+			"faces": {
+				"south": { "uv": [ 15, 1, 1, 16 ], "texture": "#front" }
+			}
+		}
+	]
+}

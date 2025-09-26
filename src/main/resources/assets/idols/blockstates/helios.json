@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "idols:block/helios",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "idols:block/helios",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "idols:block/helios"
+    },
+    "facing=west": {
+      "model": "idols:block/helios",
+      "y": 90
+    }
+  }
+}

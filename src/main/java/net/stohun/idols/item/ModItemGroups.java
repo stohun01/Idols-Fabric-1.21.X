@@ -20,6 +20,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.VIKING);
                         entries.add(ModBlocks.MOLTEN);
                         entries.add(ModBlocks.SPARTAN);
+                        entries.add(ModBlocks.SPECTRAL);
+                        entries.add(ModBlocks.HELIOS);
+                        entries.add(ModBlocks.DRUID);
 
                     }).build());
 

@@ -1,6 +1,10 @@
 {
   "itemgroup.idols.idols_blocks": "Idols",
+  "tag.idols.idols": "Idols",
   "block.idols.viking": "Viking Idol",
   "block.idols.molten": "Molten Idol",
-  "block.idols.spartan": "Spartan Idol"
+  "block.idols.spartan": "Spartan Idol",
+  "block.idols.spectral": "Spectral Idol",
+  "block.idols.helios": "Helios Idol",
+  "block.idols.druid": "Druid Idol"
 }

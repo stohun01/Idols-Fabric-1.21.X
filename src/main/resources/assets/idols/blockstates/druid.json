@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "idols:block/druid",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "idols:block/druid",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "idols:block/druid"
+    },
+    "facing=west": {
+      "model": "idols:block/druid",
+      "y": 90
+    }
+  }
+}

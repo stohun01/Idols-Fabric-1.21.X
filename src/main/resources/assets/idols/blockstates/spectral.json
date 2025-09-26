@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "idols:block/spectral",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "idols:block/spectral",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "idols:block/spectral"
+    },
+    "facing=west": {
+      "model": "idols:block/spectral",
+      "y": 90
+    }
+  }
+}
