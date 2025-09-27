@@ -1,0 +1,48 @@
+{
+	"__comment": "Designed by Stohun with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "block/valkyrie_front",
+		"front": "block/valkyrie_front",
+		"back": "block/valkyrie_back"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Box1",
+			"from": [ 5, 0, 5 ],
+			"to": [ 18, 12, 18 ],
+			"rotation": { "origin": [ 8, 0, 8 ], "axis": "y", "angle": -45 },
+			"faces": {
+				"north": { "uv": [ 2, 4, 15, 16 ], "texture": "#front" },
+				"west": { "uv": [ 15, 4, 2, 16 ], "texture": "#front" }
+			}
+		},
+		{
+			"__comment": "Box1",
+			"from": [ 4.9983, 0, 4.9983 ],
+			"to": [ 10.9983, 12, 10.9983 ],
+			"rotation": { "origin": [ 8, 0, 8 ], "axis": "y", "angle": -45 },
+			"faces": {
+				"down": { "uv": [ 1, 9, 7, 15 ], "texture": "#back" },
+				"up": { "uv": [ 1, 1, 7, 7 ], "texture": "#back" },
+				"south": { "uv": [ 9, 4, 15, 16 ], "texture": "#back" },
+				"east": { "uv": [ 15, 4, 9, 16 ], "texture": "#back" }
+			}
+		},
+		{
+			"__comment": "Box1",
+			"from": [ 18, 12, 18 ],
+			"to": [ 5, 0, 5 ],
+			"rotation": { "origin": [ 8, 0, 8 ], "axis": "y", "angle": -45 },
+			"faces": {
+				"south": { "uv": [ 15, 4, 2, 16 ], "texture": "#front", "rotation": 180 },
+				"east": { "uv": [ 2, 4, 15, 16 ], "texture": "#front", "rotation": 180 }
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation":  [ 30, 180, 0 ],
+			"scale":  [ 0.625, 0.625, 0.625 ]
+		}
+	}
+}

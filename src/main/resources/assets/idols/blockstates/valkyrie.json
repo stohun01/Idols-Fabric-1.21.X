@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "idols:block/valkyrie",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "idols:block/valkyrie",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "idols:block/valkyrie"
+    },
+    "facing=west": {
+      "model": "idols:block/valkyrie",
+      "y": 90
+    }
+  }
+}

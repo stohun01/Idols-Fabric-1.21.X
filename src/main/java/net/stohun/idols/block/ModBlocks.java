@@ -32,6 +32,12 @@ public class ModBlocks {
     public static final Block DRUID = registerBlock("druid",
             new DruidIdol(AbstractBlock.Settings.create().nonOpaque()));
 
+    public static final Block BLACKGOLD = registerBlock("black_gold",
+            new BlackGoldIdol(AbstractBlock.Settings.create().nonOpaque()));
+
+    public static final Block VALKYRIE = registerBlock("valkyrie",
+            new ValkyrieIdol(AbstractBlock.Settings.create().nonOpaque()));
+
     private static boolean always(BlockState state, BlockView world, BlockPos pos) {
         return true;
     }

@@ -23,6 +23,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SPECTRAL);
                         entries.add(ModBlocks.HELIOS);
                         entries.add(ModBlocks.DRUID);
+                        entries.add(ModBlocks.BLACKGOLD);
+                        entries.add(ModBlocks.VALKYRIE);
 
                     }).build());
 
